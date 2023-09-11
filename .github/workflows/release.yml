@@ -1,4 +1,8 @@
 name: release
+on:
+  push:
+    branches:
+      - "tmp/release-docker-image-tmp"
 permissions:
   contents: write
 jobs:
